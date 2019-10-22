@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "647263332411",
+    "firebase_url": "https://maps-geolocation-ccv.firebaseio.com",
+    "project_id": "maps-geolocation-ccv",
+    "storage_bucket": "maps-geolocation-ccv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647263332411:android:96edbc9b5602a36a69941e",
+        "android_client_info": {
+          "package_name": "dev.cesarcedanov.maps_geolocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647263332411-kutj5ir03dqs5nfkhs1h7vk1ggsu8mt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE7hv6MyHS1whEAxH1wC73qGD-3gKDTN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647263332411-kutj5ir03dqs5nfkhs1h7vk1ggsu8mt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
