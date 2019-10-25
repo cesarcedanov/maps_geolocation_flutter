@@ -9,6 +9,8 @@ class NewSightScreen extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           // title: Text('Create a new Place!'),
+          elevation: 0,
+          backgroundColor: Color.fromRGBO(40, 48, 72, 1),
           leading: IconButton(
             icon: Icon(Icons.close),
             onPressed: () {
@@ -17,14 +19,16 @@ class NewSightScreen extends StatelessWidget {
           ),
         ),
         body: Container(
+          padding: EdgeInsets.symmetric(horizontal: 20),
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
               stops: [0, 1],
               colors: [
-                Colors.greenAccent,
-                Colors.cyanAccent,
+                // Colors.blue,
+                Color.fromRGBO(40, 48, 72, 1),
+                Color.fromRGBO(133, 147, 152, 1),
               ],
             ),
           ),
